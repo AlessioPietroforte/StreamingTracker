@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "524554162041",
+    "project_id": "auth-feae0",
+    "storage_bucket": "auth-feae0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524554162041:android:e95bbcc90085d941cea9a8",
+        "android_client_info": {
+          "package_name": "it.example.applicazioneufficiale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524554162041-p0p408imt6ij5v1g2s9r1ge00ric9drs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi4H8PRCfQ3yoTbn6HTYofpDxiOlplv04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524554162041-p0p408imt6ij5v1g2s9r1ge00ric9drs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

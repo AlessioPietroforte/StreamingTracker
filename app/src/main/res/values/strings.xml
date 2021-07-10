@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">StreamingTracker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_film">My Movies</string>
+    <string name="menu_serie">My Tv Series</string>
+    <string name="menu_aboutUs">About Us</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="slogan">Your TV Series and Movies in one app!</string>
+    <string name="account_request">Non hai un Account?</string>
+    <string name="registration_okay">Ti sei registrato correttamente! Effettua il Login per proseguire</string>
+    <string name="registration_failed">Registrazione fallita. Riprova</string>
+    <string name="name_warning">Il nome è obbligatorio!</string>
+    <string name="surname_warning">Il cognome è obbligatorio!</string>
+    <string name="email_warning">L\' email è obbligatoria!</string>
+    <string name="email_wrong">Inserisci una email valida</string>
+    <string name="password_warning">La password è obbligatoria!</string>
+    <string name="password_length">La password deve essere lunga almeno 8 caratteri</string>
+    <string name="login_failed">Login fallito. Inserisci delle credenziali corrette</string>
+    <string name="genericError_message">Qualcosa è andato storto!</string>
+    <string name="chiSiamoTesto">Siamo una startup creata nel 2018 da 3 persone: Stefanoni Jonathan, Pietroforte Alessio e Perrone Mario, fondata per dare vita a questa app che in soli 2 anni, ha scalato ogni classifica e oggi si trova al primo posto per numero di download in tutto il mondo. La nostra sede si trova Milano e ad oggi conta più di 150 dipendenti, impegnati nello sviluppo di nuove applicazioni e al miglioramento di quella che oggi è la app più scaricata al mondo: StreamingTracker.</string>
+    <string name="logout_question">Sei sicuro di effettuare il logout?</string>
+    <string name="insert_data">Inserisci qui i tuoi dati:</string>
+    <string name="register_you">Registrati</string>
+    <string name="name">Nome</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="surname">Cognome</string>
+    <string name="login">Login</string>
+    <string name="welcome">Benvenuto!</string>
+    <string name="description1">- Scegli cosa guardare attraverso le classifiche del momento</string>
+    <string name="description2">- Scopri le ultime uscite nelle sale e sulle piattaforme di streaming</string>
+    <string name="description3">- Tieni traccia dei tuoi film e delle tue serie preferite</string>
+    <string name="menu_charts">Charts</string>
+
+
+</resources>
