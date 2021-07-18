@@ -1,6 +1,6 @@
 package it.example.applicazioneufficiale.ui.charts;
 
-public class BannerMovies {
+/*public class BannerMovies {
 
     int id;
     String movieName;
@@ -47,4 +47,4 @@ public class BannerMovies {
     }
 }
 
-
+*/

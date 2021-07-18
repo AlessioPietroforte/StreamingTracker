@@ -1,6 +1,6 @@
 package it.example.applicazioneufficiale.ui.charts;
 
-import java.util.List;
+/*import java.util.List;
 
 public class AllCategory {
 
@@ -37,6 +37,6 @@ public class AllCategory {
     public void setCategoryId(int categoryId) {
         this.categoryId = categoryId;
     }
-}
+}*/
 
 

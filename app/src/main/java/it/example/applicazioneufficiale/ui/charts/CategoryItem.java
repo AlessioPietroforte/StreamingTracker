@@ -1,6 +1,6 @@
 package it.example.applicazioneufficiale.ui.charts;
 
-public class CategoryItem {
+/*public class CategoryItem {
 
     int id;
     String movieName;
@@ -48,3 +48,4 @@ public class CategoryItem {
 
 
 }
+*/

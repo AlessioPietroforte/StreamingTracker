@@ -1,6 +1,6 @@
 package it.example.applicazioneufficiale.ui.charts;
 
-import android.content.Context;
+/*import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -76,3 +76,4 @@ public class ItemRecyclerAdapter extends RecyclerView.Adapter<ItemRecyclerAdapte
     }
 
 }
+*/

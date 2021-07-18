@@ -14,7 +14,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import it.example.applicazioneufficiale.databinding.ActivityMainBinding;
-import it.example.applicazioneufficiale.ui.charts.ChartsActivity;
+import it.example.applicazioneufficiale.charts.ChartsActivity;
 import it.example.applicazioneufficiale.ui.film.FilmActivity;
 import it.example.applicazioneufficiale.ui.logout.LogoutActivity;
 import it.example.applicazioneufficiale.ui.series.SeriesActivity;

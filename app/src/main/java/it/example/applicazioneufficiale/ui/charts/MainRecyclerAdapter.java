@@ -1,6 +1,6 @@
 package it.example.applicazioneufficiale.ui.charts;
 
-import android.content.Context;
+/*import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -71,3 +71,4 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
     }
 
 }
+*/

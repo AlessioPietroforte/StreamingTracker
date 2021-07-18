@@ -1,6 +1,6 @@
 package it.example.applicazioneufficiale.ui.charts;
 
-import androidx.appcompat.app.AppCompatActivity;
+/*import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
@@ -141,4 +141,4 @@ public class ChartsActivity extends AppCompatActivity {
 
 
 
-}
+}*/
