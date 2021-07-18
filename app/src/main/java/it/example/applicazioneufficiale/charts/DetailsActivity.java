@@ -1,14 +1,19 @@
 package it.example.applicazioneufficiale.charts;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.core.text.HtmlCompat;
 import androidx.core.widget.NestedScrollView;
 
@@ -73,6 +78,74 @@ public class DetailsActivity extends AppCompatActivity {
         }
 
         findViewById(R.id.imageBackDetails).setOnClickListener(v -> onBackPressed());
+
+        ToggleButton WatchedButton = (ToggleButton) findViewById(R.id.watchedButton);
+        WatchedButton.setChecked(false);
+        WatchedButton.setBackgroundDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.watched_not));
+        WatchedButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    WatchedButton.setBackgroundDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.watched));
+                    Toast toast = Toast.makeText(getApplicationContext(), "Added to Watched", Toast.LENGTH_SHORT);
+                    toast.show();
+                }else {
+                    WatchedButton.setBackgroundDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.watched_not));
+                    Toast toast = Toast.makeText(getApplicationContext(), "Removed from Watched", Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+            }
+        });
+
+        ToggleButton toWatchButton = (ToggleButton) findViewById(R.id.toWatchButton);
+        toWatchButton.setChecked(false);
+        //toWatchButton.setButtonDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.to_not_watch));
+        //toWatchButton.setId(R.id.toWatchButton);
+        toWatchButton.setBackgroundDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.to_not_watch));
+        toWatchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    toWatchButton.setBackgroundDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.to_watch));
+                    Toast toast = Toast.makeText(getApplicationContext(), "Added to toWatch", Toast.LENGTH_SHORT);
+                    toast.show();
+                } else {
+                    toWatchButton.setBackgroundDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.to_not_watch));
+                    Toast toast = Toast.makeText(getApplicationContext(), "Removed from toWatch", Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+            }
+        });
+        /*toWatchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                boolean isToWatch = readState();
+
+                    if (isToWatch) {
+                        toWatchButton.setBackgroundResource(R.drawable.to_not_watch);
+                        isToWatch = false;
+                        saveState(isToWatch);
+
+                    } else {
+                        toWatchButton.setBackgroundResource(R.drawable.to_watch);
+                        isToWatch = true;
+                        saveState(isToWatch);
+                    }
+            }
+        });
+    }
+    private void saveState(boolean isToWatch){
+        SharedPreferences aSharedPreferences = this.getSharedPreferences(
+                "Favourite", Context.MODE_PRIVATE);
+        SharedPreferences.Editor aSharedPreferencesEdit = aSharedPreferences
+                .edit();
+        aSharedPreferencesEdit.putBoolean("State", isToWatch);
+        aSharedPreferencesEdit.commit();
+    }
+    private boolean readState() {
+        SharedPreferences aSharedPreferences = this.getSharedPreferences(
+                "Favourite", Context.MODE_PRIVATE);
+        return aSharedPreferences.getBoolean("State", true);*/
     }
 
     private void setMovieDetails() {
