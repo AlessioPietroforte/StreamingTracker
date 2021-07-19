@@ -54,6 +54,9 @@
     <string name="no_results">No results</string>
     <string name="something_wrong">Something wrong with connection</string>
     <string name="search_movie_or_tv_show">Search Movie or TV Show</string>
+    <string name="noLettersError">No letters detected</string>
+    <string name="choose">Please choose between movie and tv types</string>
+    <string name="tv_series">Tv Series</string>
 
 
 </resources>

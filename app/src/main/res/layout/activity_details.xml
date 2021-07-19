@@ -71,7 +71,7 @@
                     android:id="@+id/textTitle"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/black"
+                    android:textColor="#FF9800"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -81,7 +81,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="22sp" />
 
                 <TextView
@@ -90,7 +90,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="22sp" />
 
             </LinearLayout>
@@ -108,10 +108,9 @@
                     android:id="@+id/textOverview"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:alpha="0.6"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textlanguage"
@@ -119,7 +118,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
                 <TextView
@@ -128,7 +127,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
                 <TextView
@@ -137,7 +136,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
                 <TextView
@@ -146,7 +145,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
                 <TextView
@@ -155,7 +154,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
                 <TextView
@@ -164,7 +163,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
                 <TextView
@@ -173,7 +172,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
                 <TextView
@@ -182,7 +181,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="2dp"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
                 <TextView
@@ -192,7 +191,7 @@
                     android:layout_marginTop="2dp"
                     android:autoLink="web"
                     android:includeFontPadding="false"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
             </LinearLayout>

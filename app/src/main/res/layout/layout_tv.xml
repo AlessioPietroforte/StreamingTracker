@@ -15,7 +15,7 @@
         android:paddingEnd="10dp"
         android:paddingBottom="5dp"
         android:text="@string/tv_shows"
-        android:textColor="@color/black"
+        android:textColor="#FF9800"
         android:textSize="22sp"
         android:textStyle="bold" />
 
@@ -29,8 +29,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/most_popular_tv_shows"
-            android:textColor="@color/black"
+            android:textColor="@color/yellow"
             android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@id/rvTvPopular"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -81,7 +82,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/top_rated_tv_shows"
-            android:textColor="@color/black"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@id/rvTvTopRated"
             app:layout_constraintTop_toTopOf="parent" />
@@ -133,7 +135,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/on_the_air_tv_shows"
-            android:textColor="@color/black"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@id/rvTvOnAir"
             app:layout_constraintTop_toTopOf="parent" />

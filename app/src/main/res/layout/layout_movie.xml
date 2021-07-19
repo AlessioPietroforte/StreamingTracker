@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -15,7 +16,7 @@
         android:paddingEnd="10dp"
         android:paddingBottom="5dp"
         android:text="@string/movies"
-        android:textColor="@color/black"
+        android:textColor="#FF9800"
         android:textSize="22sp"
         android:textStyle="bold" />
 
@@ -29,7 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/most_popular_movies"
-            android:textColor="@color/black"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@id/rvMoviePopular"
             app:layout_constraintTop_toTopOf="parent" />
@@ -81,7 +83,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/now_playing_movies"
-            android:textColor="@color/black"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@id/rvMovieNowPlaying"
             app:layout_constraintTop_toTopOf="parent" />
@@ -133,7 +136,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/upcoming_movies"
-            android:textColor="@color/black"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@id/rvUpcomingMovie"
             app:layout_constraintTop_toTopOf="parent" />
@@ -185,9 +189,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/top_rated_movies"
-            android:textColor="@color/black"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@id/rvMovieTopRated"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView

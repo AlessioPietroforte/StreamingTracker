@@ -91,21 +91,4 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
-
-
-/*
-
-    public static void redirectActivity(Activity activity, Class aClass) {
-        //inizialize Intent
-        Intent intent = new Intent(activity, aClass);
-        //set flag
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        //Start activity
-        activity.startActivity(intent);
-
-    }
-
-
-     */
-
-    }
+}

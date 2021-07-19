@@ -531,12 +531,14 @@ public class ChartsActivity extends AppCompatActivity {
 
     private void doSearch(String query) {
         if (query.isEmpty()) {
-            Toast.makeText(getApplicationContext(), "No letters detected",
+            Toast.makeText(getApplicationContext(),
+                    R.string.noLettersError,
                     Toast.LENGTH_SHORT).show();
             return;
         }
         if (searchType == null) {
-            Toast.makeText(getApplicationContext(), "Please choose between movie and tv types",
+            Toast.makeText(getApplicationContext(),
+                    R.string.choose,
                     Toast.LENGTH_SHORT).show();
             return;
         }

@@ -23,10 +23,9 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:alpha="0.6"
         android:gravity="center"
         android:lines="2"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="10sp"
         tools:ignore="SmallSp" />
 

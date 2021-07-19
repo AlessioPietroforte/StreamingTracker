@@ -214,11 +214,12 @@ public class DetailsActivity extends AppCompatActivity {
                     runtime = runtime.replace(",", " &");
                     setHTMLText(textRuntime, "Runtime", runtime + " min");
 
-                    textReleaseDate.setText(HtmlCompat.fromHtml("<font color='#0B6A10'>First air date</font> : " +
-                            response.body().getFirstAirDate() + "<br/><font color='#0B6A10'>Last air date</font> : " +
+                    textReleaseDate.setText(HtmlCompat.fromHtml("<font color='#FFCC00'>First air date</font> : " +
+                            response.body().getFirstAirDate() + "<br/><font color='#FFCC00'>Last air date</font> : " +
                             response.body().getLastAirdate() , HtmlCompat.FROM_HTML_MODE_LEGACY));
 
                     textOverview.setText(response.body().getOverview());
+                    //setHTMLText(textTitle,"*",response.body().getOverview());
                     setHTMLText(textlanguage, "Language", response.body().getOriginalLanguage());
                     setHTMLText(textStatus, "Status", response.body().getStatus());
                     setHTMLText(textBudgetOrSeasons, "Seasons", response.body().getNumberOfSeasons());
@@ -241,7 +242,7 @@ public class DetailsActivity extends AppCompatActivity {
     }
 
     private void setHTMLText(TextView tv, String stringColored, String stringValue) {
-        tv.setText(HtmlCompat.fromHtml("<font color='#0B6A10'>" + stringColored + "</font> : " + stringValue,
+        tv.setText(HtmlCompat.fromHtml("<font color='#FFCC00'>" + stringColored + "</font> : " + stringValue,
                 HtmlCompat.FROM_HTML_MODE_LEGACY));
     }
 }
