@@ -1,17 +1,17 @@
-package it.example.applicazioneufficiale.charts;
+package it.example.applicazioneufficiale.ui.charts;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TVRespon {
+public class MovieRespon {
 
     @SerializedName("page")
     int page;
 
     @SerializedName("results")
-    private final List<TVResult> results = new ArrayList<>();
+    private final List<MovieResult> results = new ArrayList<>();
 
     @SerializedName("total_results")
     int totalResults;
@@ -23,7 +23,7 @@ public class TVRespon {
         return page;
     }
 
-    public List<TVResult> getResults() {
+    public List<MovieResult> getResults() {
         return results;
     }
 

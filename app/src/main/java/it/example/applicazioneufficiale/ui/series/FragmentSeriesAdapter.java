@@ -21,17 +21,14 @@ public class FragmentSeriesAdapter extends FragmentStateAdapter {
             case 1:
                 return new watchedSeriesFragment();
 
-            case 2:
-                return new toWatchSeriesFragment();
-
         }
+        return new toWatchSeriesFragment();
 
-        return new watchingSeriesFragment();
     }
 
     @Override
     public int getItemCount() {
-        return 3;
+        return 2;
     }
 }
 

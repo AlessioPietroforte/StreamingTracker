@@ -31,9 +31,9 @@ public class SeriesActivity extends AppCompatActivity {
         adapter = new FragmentSeriesAdapter(fm, getLifecycle());
         pager2.setAdapter(adapter);
 
-        tabLayout.addTab(tabLayout.newTab().setText("Watching"));
-        tabLayout.addTab(tabLayout.newTab().setText("Watched"));
+
         tabLayout.addTab(tabLayout.newTab().setText("To Watch"));
+        tabLayout.addTab(tabLayout.newTab().setText("Watched"));
 
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override

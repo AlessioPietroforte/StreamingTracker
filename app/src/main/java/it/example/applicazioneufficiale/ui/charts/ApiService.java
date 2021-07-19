@@ -1,4 +1,4 @@
-package it.example.applicazioneufficiale.charts;
+package it.example.applicazioneufficiale.ui.charts;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

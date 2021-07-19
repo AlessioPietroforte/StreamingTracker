@@ -1,4 +1,4 @@
-package it.example.applicazioneufficiale.charts;
+package it.example.applicazioneufficiale.ui.charts;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -21,16 +21,13 @@ public class FragmentFilmAdapter extends FragmentStateAdapter {
             case 1:
                 return new watchedFilmFragment();
 
-            case 2:
-                return new toWatchFilmFragment();
-
         }
 
-        return new watchingFilmFragment();
+        return new toWatchFilmFragment();
     }
 
     @Override
     public int getItemCount() {
-        return 3;
+        return 2;
     }
 }

@@ -13,12 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicazioneUfficiale">
-        <activity android:name=".charts.DetailsActivity"
+        <activity android:name=".ui.charts.DetailsActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
-        <activity android:name=".charts.SearchActivity"
+        <activity android:name=".ui.charts.SearchActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity
-            android:name=".charts.ChartsActivity"
+            android:name=".ui.charts.ChartsActivity"
             android:theme="@style/Theme.ApplicazioneUfficiale.NoActionBar" />
         <activity
             android:name=".ui.series.SeriesActivity"

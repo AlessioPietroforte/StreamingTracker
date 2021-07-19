@@ -9,37 +9,36 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_film">My Movies</string>
-    <string name="menu_serie">My Tv Series</string>
+    <string name="menu_shows">My Tv Shows</string>
     <string name="menu_aboutUs">About Us</string>
     <string name="menu_logout">Logout</string>
 
     <string name="slogan">Your TV Series and Movies in one app!</string>
-    <string name="account_request">Non hai un Account?</string>
-    <string name="registration_okay">Ti sei registrato correttamente! Effettua il Login per proseguire</string>
-    <string name="registration_failed">Registrazione fallita. Riprova</string>
-    <string name="name_warning">Il nome è obbligatorio!</string>
-    <string name="surname_warning">Il cognome è obbligatorio!</string>
-    <string name="email_warning">L\' email è obbligatoria!</string>
-    <string name="email_wrong">Inserisci una email valida</string>
-    <string name="password_warning">La password è obbligatoria!</string>
-    <string name="password_length">La password deve essere lunga almeno 8 caratteri</string>
-    <string name="login_failed">Login fallito. Inserisci delle credenziali corrette</string>
-    <string name="genericError_message">Qualcosa è andato storto!</string>
-    <string name="chiSiamoTesto">Siamo una startup creata nel 2018 da 3 persone: Stefanoni Jonathan, Pietroforte Alessio e Perrone Mario, fondata per dare vita a questa app che in soli 2 anni, ha scalato ogni classifica e oggi si trova al primo posto per numero di download in tutto il mondo. La nostra sede si trova Milano e ad oggi conta più di 150 dipendenti, impegnati nello sviluppo di nuove applicazioni e al miglioramento di quella che oggi è la app più scaricata al mondo: StreamingTracker.</string>
-    <string name="logout_question">Sei sicuro di effettuare il logout?</string>
-    <string name="insert_data">Inserisci qui i tuoi dati:</string>
-    <string name="register_you">Registrati</string>
-    <string name="name">Nome</string>
+    <string name="account_request">Don\'t you have any account ?</string>
+    <string name="registration_okay">You have registered successfully! Please Login to continue</string>
+    <string name="registration_failed">Registration failed. Riprova</string>
+    <string name="name_warning">The name is required!</string>
+    <string name="surname_warning">The surname is required!</string>
+    <string name="email_warning">The email è required!</string>
+    <string name="email_wrong">Please enter a valid email</string>
+    <string name="password_warning">The password is required!</string>
+    <string name="password_length">The password must be at least 8 characters long</string>
+    <string name="login_failed">Login failed. Enter correct credentials</string>
+    <string name="genericError_message">Something went wrong!</string>
+    <string name="whoWeAre">We are a startup created in 2018 by 3 people: Stefanoni Jonathan, Pietroforte Alessio and Perrone Mario, founded to give life to this app that in just 2 years, has climbed every ranking and today is in first place for the number of downloads throughout the world. Our headquarters are located in Milan and today it has more than 150 employees, engaged in the development of new applications and the improvement of what is now the most downloaded app in the world: StreamingTracker.</string>
+    <string name="logout_question">Are you sure to logout?</string>
+    <string name="insert_data">Enter your details here:</string>
+    <string name="register_you">Sign in</string>
+    <string name="name">Name</string>
     <string name="password">Password</string>
     <string name="email">E-mail</string>
-    <string name="surname">Cognome</string>
+    <string name="surname">Surname</string>
     <string name="login">Login</string>
-    <string name="welcome">Benvenuto!</string>
-    <string name="description1">- Scegli cosa guardare attraverso le classifiche del momento</string>
-    <string name="description2">- Scopri le ultime uscite nelle sale e sulle piattaforme di streaming</string>
-    <string name="description3">- Tieni traccia dei tuoi film e delle tue serie preferite</string>
+    <string name="welcome">Welcome!</string>
+    <string name="description1">- Choose what to watch through the charts of the moment</string>
+    <string name="description2">- Check out the latest releases in theaters and on streaming platforms</string>
+    <string name="description3">- Keep track of your movies and series already watched and to watch</string>
     <string name="menu_charts">Charts</string>
-
     <string name="movies">Movies</string>
     <string name="most_popular_movies">Most Popular Movies</string>
     <string name="now_playing_movies">Now Playing Movies</string>
@@ -49,14 +48,16 @@
     <string name="most_popular_tv_shows">Most Popular TV Shows</string>
     <string name="top_rated_tv_shows">Top Rated TV Shows</string>
     <string name="on_the_air_tv_shows">On The Air TV Shows</string>
-    <string name="text_info">This application fully uses the API from TMDB (www.themoviedb.org), but is not supported by TMDB.</string>
     <string name="enter_keyword">Enter query</string>
     <string name="no_results">No results</string>
     <string name="something_wrong">Something wrong with connection</string>
     <string name="search_movie_or_tv_show">Search Movie or TV Show</string>
     <string name="noLettersError">No letters detected</string>
     <string name="choose">Please choose between movie and tv types</string>
-    <string name="tv_series">Tv Series</string>
-
+    <string name="shows">Tv Shows</string>
+    <string name="aboutUs_title_fragment">Who We Are</string>
+    <string name="logout_address">Email Address:</string>
+    <string name="logout_surname">Surname:</string>
+    <string name="logout_name">Name:</string>
 
 </resources>

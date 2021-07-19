@@ -1,4 +1,4 @@
-package it.example.applicazioneufficiale.charts.slider;
+package it.example.applicazioneufficiale.ui.charts.slider;
 
 public class SliderThings {
     int id;

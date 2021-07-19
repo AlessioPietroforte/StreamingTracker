@@ -47,7 +47,7 @@ public class LogoutActivity extends AppCompatActivity {
             builder.setTitle("Logout");
             //Setto il messaggio
             builder.setMessage(R.string.logout_question);
-            builder.setPositiveButton("Sì", (dialog, which) -> {
+            builder.setPositiveButton("YES", (dialog, which) -> {
 
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(LogoutActivity.this, LoginActivity.class));

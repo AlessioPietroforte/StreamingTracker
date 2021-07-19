@@ -32,7 +32,7 @@
         tools:layout="@layout/activity_series" />
     <activity
         android:id="@+id/nav_charts_Activity"
-        android:name="it.example.applicazioneufficiale.charts.ChartsActivity"
+        android:name="it.example.applicazioneufficiale.ui.charts.ChartsActivity"
         android:label="activity_charts"
         tools:layout="@layout/activity_charts" />
 </navigation>

@@ -19,7 +19,7 @@
         <item
             android:id="@+id/nav_series"
             android:icon="@drawable/ic_tv"
-            android:title="@string/menu_serie" />
+            android:title="@string/menu_shows" />
         <item
             android:id="@+id/nav_aboutUs"
             android:icon="@drawable/ic_info"
