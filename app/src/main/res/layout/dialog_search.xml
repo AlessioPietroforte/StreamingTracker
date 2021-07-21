@@ -20,7 +20,8 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/search_movie_or_tv_show"
-            android:textColor="@color/white"
+            android:textColor="#FF9800"
+            android:textStyle="bold"
             android:textSize="22sp" />
 
         <RadioGroup
@@ -37,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/movies"
+                android:background="@color/white"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -46,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/shows"
+                android:background="@color/white"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 

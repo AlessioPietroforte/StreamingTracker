@@ -19,6 +19,7 @@
         app:itemIconTint="#FF9800"
         app:itemTextColor="#FF8C00"
         android:background="@color/black"
+        app:itemBackground="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"

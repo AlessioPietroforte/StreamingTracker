@@ -86,11 +86,11 @@ public class SearchActivity extends AppCompatActivity {
     }
 
     private void searchForMovies() {
-        Call<MovieRespon> call = apiService.searchMovie(ChartsActivity.MYAPI_KEY, ChartsActivity.LANGUAGE,
+        Call<MovieResponse> call = apiService.searchMovie(ChartsActivity.MYAPI_KEY, ChartsActivity.LANGUAGE,
                 query, currentPage);
-        call.enqueue(new Callback<MovieRespon>() {
+        call.enqueue(new Callback<MovieResponse>() {
             @Override
-            public void onResponse(@NonNull Call<MovieRespon> call,@NonNull Response<MovieRespon> response) {
+            public void onResponse(@NonNull Call<MovieResponse> call, @NonNull Response<MovieResponse> response) {
                 if (response.body() != null) {
                     if (response.body().getResults().size() > 0) {
                         loadingSearch.setVisibility(View.GONE);
@@ -107,7 +107,7 @@ public class SearchActivity extends AppCompatActivity {
                 }
             }
             @Override
-            public void onFailure(@NonNull Call<MovieRespon> call,@NonNull Throwable t) {
+            public void onFailure(@NonNull Call<MovieResponse> call, @NonNull Throwable t) {
                 loadingSearch.setVisibility(View.GONE);
                 loadingMoreSearch.setVisibility(View.GONE);
                 textNoResults.setVisibility(View.VISIBLE);
@@ -117,11 +117,11 @@ public class SearchActivity extends AppCompatActivity {
     }
 
     private void searchForTV() {
-        Call<TVRespon> call = apiService.searchTv(ChartsActivity.MYAPI_KEY, ChartsActivity.LANGUAGE,
+        Call<TVResponse> call = apiService.searchTv(ChartsActivity.MYAPI_KEY, ChartsActivity.LANGUAGE,
                 query, currentPage);
-        call.enqueue(new Callback<TVRespon>() {
+        call.enqueue(new Callback<TVResponse>() {
             @Override
-            public void onResponse(@NonNull Call<TVRespon> call,@NonNull Response<TVRespon> response) {
+            public void onResponse(@NonNull Call<TVResponse> call, @NonNull Response<TVResponse> response) {
                 if (response.body() != null) {
                     if (response.body().getResults().size() > 0) {
                         loadingSearch.setVisibility(View.GONE);
@@ -138,7 +138,7 @@ public class SearchActivity extends AppCompatActivity {
                 }
             }
             @Override
-            public void onFailure(@NonNull Call<TVRespon> call,@NonNull Throwable t) {
+            public void onFailure(@NonNull Call<TVResponse> call, @NonNull Throwable t) {
                 loadingSearch.setVisibility(View.GONE);
                 loadingMoreSearch.setVisibility(View.GONE);
                 textNoResults.setVisibility(View.VISIBLE);
